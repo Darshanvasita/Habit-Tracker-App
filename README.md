@@ -29,8 +29,6 @@ Create a habit tracker app, where we can define habits and track them.
 
 ## Application/Project setup
 
-- Clone the git repository in your local machine by using command,
-    - git clone https://github.com/Shivaraj777/habit-tracker-app-react.git
 - Open the project code in VS code.
 - Open the terminal and go to root directory of the project.
 - Use command, npm install to install all the dependencies.
