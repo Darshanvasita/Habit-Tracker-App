@@ -35,6 +35,3 @@ Create a habit tracker app, where we can define habits and track them.
 - use "npm start" command to run the application.
 - Open a new tab in any web browser and access the application using localhost:3000
 
-## Hosting
-
-- Hosted on: https://habit-tracker-react-3342a.web.app/
