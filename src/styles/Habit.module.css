@@ -1,0 +1,71 @@
+/* Habit container for detail view */
+.habit{
+    height: 7rem;
+    width: 80%;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #FFD194, #D1913C);
+}
+
+/* Habit Details container */
+.habitDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.habitDetails p{
+    color: rgb(9, 9, 103);
+    font-size: 90%;
+    font-weight: 700;
+}
+
+.habitDetails span{
+    color: rgb(82, 80, 80);
+    font-size: 90%;
+}
+
+/* Habit Actions container */
+.habitActions{
+    width: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* #fav{
+    color: rgb(237, 226, 226);
+} */
+
+.habitActions i{
+    padding-top: 40px;
+    color:maroon;
+    font-size: 25px;
+}
+
+.habitActions i:hover{
+    cursor: pointer;
+}
+
+/* Media queries */
+@media screen and (max-width: 480px){
+    .habit{
+        height: 8rem;
+    }
+
+    .habitDetails span{
+        color: rgb(82, 80, 80);
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:322px){
+    .habit{
+        height: 9.2rem;
+    }
+}

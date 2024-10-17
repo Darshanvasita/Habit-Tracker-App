@@ -1,0 +1,25 @@
+/* Detail View page container */
+.detailView{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add Habit button */
+.addHabitBtn{
+    height: 3rem;
+    width: 8em;
+    font-size: large;
+    margin-top: 2rem;
+    color: whitesmoke;
+    background-color: rgb(247, 165, 12);
+    border: none;
+    border-radius: 8px;
+}
+
+.addHabitBtn:hover{
+    cursor: pointer;
+    background-color: rgb(247, 135, 12);
+}
+
